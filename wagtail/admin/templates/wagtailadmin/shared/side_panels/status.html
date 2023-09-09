@@ -16,7 +16,11 @@
         </div>
         {% if object.first_published_at %}
             <div class="w-help-text">
-                {% trans 'First published ' %}{% timesince_last_update object.first_published_at use_shorthand=True %}
+                <button type="button" class="w-human-readable-date" data-tippy-content="{{ object.first_published_at|date:'M. d, Y, H:i:s' }}" data-tippy-placement="bottom">
+                    <time class="w-human-readable-date__date" datetime="{{ object.first_published_at }}">
+                        {% trans 'First published ' %}{% timesince_last_update object.first_published_at use_shorthand=True %}
+                    </time>
+                </button>
             </div>
         {% endif %}
     </div>
