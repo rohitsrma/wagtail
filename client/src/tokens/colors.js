@@ -154,15 +154,6 @@ const staticColors = {
       usage: 'Hover states, two-tone buttons',
       contrastText: 'white',
     },
-    100: {
-      hex: '#03b8a0',
-      hsl: 'hsl(182.6 100% 28.5%)',
-      bgUtility: 'w-bg-secondary-100',
-      textUtility: 'w-text-secondary-100',
-      cssVariable: '--w-color-secondary-100',
-      usage: 'Hover states for, two-tone buttons',
-      contrastText: 'black',
-    },
     DEFAULT: {
       hex: '#007D7E',
       hsl: 'hsl(180.5 100% 24.7%)',
