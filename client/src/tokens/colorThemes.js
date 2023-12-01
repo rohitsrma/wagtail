@@ -165,6 +165,12 @@ const light = [
         textUtility: 'w-text-text-button-outline-default',
         cssVariable: '--w-color-text-button-outline-default',
       },
+      'text-button-outline-hover': {
+        value: 'var(--w-color-secondary-200)',
+        bgUtility: 'w-bg-text-button-outline-hover',
+        textUtility: 'w-text-text-button-outline-hover',
+        cssVariable: '--w-color-text-button-outline-hover',
+      },
       'text-highlight': {
         value: 'var(--w-color-secondary-75)',
         bgUtility: 'w-bg-text-highlight',
@@ -410,6 +416,12 @@ const dark = [
         bgUtility: 'w-bg-text-button-outline-default',
         textUtility: 'w-text-text-button-outline-default',
         cssVariable: '--w-color-text-button-outline-default',
+      },
+      'text-button-outline-hover': {
+        value: 'var(--w-color-secondary-200)',
+        bgUtility: 'w-bg-text-button-outline-hover',
+        textUtility: 'w-text-text-button-outline-hover',
+        cssVariable: '--w-color-text-button-outline-hover',
       },
       'text-highlight': {
         value: 'var(--w-color-secondary-400)',
